@@ -6,9 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/blueprint-css@3.1.3/dist/blueprint.min.css" rel="stylesheet" />
+    <!-- Lineicons CSS -->
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- choose one -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet"
+        type="text/css" />
 </head>
 
-<body>
+<body data-vide-bg="assets/video/01.mp4">
+    <div bp="grid">
+        <div bp="4">
+            <div class="left-items">
+                <div class="header">
+                    <div class="logo-box">
+                        <img src="assets/images/logo.png" alt="">
+                    </div>
+                    <div class="menu-box cormorant">
+                        <a class="menu" href="#"><i class="fal fa-mug-marshmallows"></i> Drink Menu</a>
+                        <a class="menu" href="#"><i class="fad fa-sparkles"></i> Special Items</a>
+                        <a class="menu" href="#"><i class="fal fa-user-friends"></i> About Us</a>
+                        <a class="menu" href="#"><i class="fal fa-house-user"></i> Contact</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-text cormorant">
+                        <p>Al Azad Heera &#169;<span id="currentYear"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div bp="8" class="right-items">2</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+    <script src="assets/js/jquery.vide.js"></script>
+    <script>
+        var year = new Date().getFullYear();
+        document.getElementById("currentYear").innerHTML = year;
+    </script>
+    <script src="assets/js/font-awesome.js"></script>
 
 </body>
 
