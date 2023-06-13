@@ -246,7 +246,7 @@ body {
 
 .contact-us-box {
     background-color: #ffffff;
-    background-image: url(assets/images/map.jpg);
+    background-image: url(../images/map.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
