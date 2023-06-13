@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>Wave Caffee</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet"
         type="text/css" />
@@ -25,18 +25,23 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <a class="menu" href="#"><i class="fal fa-mug-marshmallows"></i> Drink Menu</a>
+                            <a id="home-button" class="menu" href="#home"><i class="fal fa-mug-marshmallows"></i> Drink
+                                Menu</a>
                         </div>
                         <div class="col-md-6">
-                            <a class="menu" href="#"><i class="fad fa-sparkles"></i> Special Items</a>
+                            <a id="special-button" class="menu" href="#special-item"><i class="fad fa-sparkles"></i>
+                                Special
+                                Items</a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <a class="menu" href="#"><i class="fal fa-user-friends"></i> About Us</a>
+                            <a id="about-button" class="menu" href="#about-us"><i class="fal fa-user-friends"></i> About
+                                Us</a>
                         </div>
                         <div class="col-md-6">
-                            <a class="menu" href="#"><i class="fal fa-house-user"></i> Contact</a>
+                            <a id="contact-button" class="menu" href="#contact-us"><i class="fal fa-house-user"></i>
+                                Contact</a>
                         </div>
                     </div>
 
@@ -52,7 +57,7 @@
                 </div>
             </div>
             <div class="col-md-8" style="padding-right: 0;">
-                <div class="recepies full-height overflow-y-scroll">
+                <div id="home" class="content-box full-height overflow-y-scroll">
                     <div class="tab-buttons margin-bottom">
                         <ul class="nav nav-tabs nav-justified josefin">
                             <li class="active"><a data-toggle="tab" href="#home">Iced Coffee</a></li>
@@ -418,6 +423,189 @@
                         </div>
                     </div>
                 </div>
+                <div style="display: none;" id="special-item" class="content-box full-height overflow-y-scroll">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="special-item-single">
+                                <div class="special-item-image">
+                                    <img src="assets/images/special-01.jpg" alt="image.png">
+                                </div>
+                                <div class="special-item-desc">
+                                    <h2 class="josefin">Special One</h2>
+                                    <p class="raleway">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                                        alias doloremque non minus id rerum dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="special-item-single">
+                                <div class="special-item-image">
+                                    <img src="assets/images/special-02.jpg" alt="image.png">
+                                </div>
+                                <div class="special-item-desc">
+                                    <h2 class="josefin">Special Two</h2>
+                                    <p class="raleway">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                                        alias doloremque non minus id rerum dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="special-item-single">
+                                <div class="special-item-image">
+                                    <img src="assets/images/special-03.jpg" alt="image.png">
+                                </div>
+                                <div class="special-item-desc">
+                                    <h2 class="josefin">Special Three</h2>
+                                    <p class="raleway">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                                        alias doloremque non minus id rerum dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="special-item-single">
+                                <div class="special-item-image">
+                                    <img src="assets/images/special-04.jpg" alt="image.png">
+                                </div>
+                                <div class="special-item-desc">
+                                    <h2 class="josefin">Special Four</h2>
+                                    <p class="raleway">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                                        alias doloremque non minus id rerum dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="special-item-single">
+                                <div class="special-item-image">
+                                    <img src="assets/images/special-05.jpg" alt="image.png">
+                                </div>
+                                <div class="special-item-desc">
+                                    <h2 class="josefin">Special One</h2>
+                                    <p class="raleway">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                                        alias doloremque non minus id rerum dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="special-item-single">
+                                <div class="special-item-image">
+                                    <img src="assets/images/special-06.jpg" alt="image.png">
+                                </div>
+                                <div class="special-item-desc">
+                                    <h2 class="josefin">Special Six</h2>
+                                    <p class="raleway">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                                        alias doloremque non minus id rerum dolore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: none;" id="about-us" class="content-box full-height overflow-y-scroll">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about-us-box">
+                                <div class="about-us-heading josefin">
+                                    <h2>About Wave Caffe</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="about-us-img">
+                                            <img src="assets/images/about-1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 raleway">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione quia
+                                            sit, nobis mollitia modi eaque assumenda ipsa beatae incidunt nemo aut iste
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, odit
+                                            facilis. Autem animi dolores commodi eligendi porro praesentium illo
+                                            asperiores aperiam hic dolor earum, rem architecto, ex, vel excepturi
+                                            quaerat!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-us-box">
+                                <div class="about-us-heading josefin">
+                                    <h2>How We Began</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8 raleway">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione quia
+                                            sit, nobis mollitia modi eaque assumenda ipsa beatae incidunt nemo aut iste
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, odit
+                                            facilis. Autem animi dolores commodi eligendi porro praesentium illo
+                                            asperiores aperiam hic dolor earum, rem architecto, ex, vel excepturi
+                                            quaerat!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="about-us-img">
+                                            <img src="assets/images/about-2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: none;" id="contact-us" class="content-box full-height overflow-y-scroll">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about-us-box contact-us-box">
+                                <div class="about-us-heading josefin">
+                                    <h2>Contact Us</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="contact-us-address raleway">
+                                            <h2 class="josefin">Address</h2>
+                                            <p><b><i class="fas fa-map-signs"></i></b> Domar, Nilphamari, Bangladesh</p>
+                                            <p>
+                                                <bold><i class="far fa-phone-volume"></i></bold> 8801755339711
+                                            </p>
+                                            <p>
+                                                <bold><i class="fas fa-at"></i></bold> workheera@gmail.com
+                                            </p>
+                                            <p>
+                                                <bold><i class="fab fa-facebook-messenger"></i></bold> alazad.heera
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-us-box email-box">
+                                <div class="about-us-heading josefin">
+                                    <h2>Mail Us</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="about-us-img">
+                                            <img src="assets/images/email.avif" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 raleway">
+                                        <form>
+                                            <label for="fname">Your Name</label>
+                                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                                            <label for="lname">Email</label>
+                                            <input type="text" id="lname" name="lastname" placeholder="Email">
+
+                                            <label for="subject">Message</label>
+                                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                                style="height:200px"></textarea>
+
+                                            <input type="submit" value="Submit">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -433,6 +621,44 @@
             className: 'video-position'
         });
         $('#myBlock').vide('extended path as a string', 'options as a string');
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('#home-button').on('click', function () {
+                $('#contact-us').hide();
+                $('#about-us').hide();
+                $('#special-item').hide();
+
+                $('#home').show();
+            });
+
+            $('#special-button').on('click', function () {
+                $('#home').hide();
+                $('#contact-us').hide();
+                $('#about-us').hide();
+
+                $('#special-item').show();
+            });
+
+            $('#about-button').on('click', function () {
+                $('#home').hide();
+                $('#contact-us').hide();
+                $('#special-item').hide();
+
+                $('#about-us').show();
+            });
+
+            $('#contact-button').on('click', function () {
+                $('#home').hide();
+                $('#special-item').hide();
+                $('#about-us').hide();
+
+                $('#contact-us').show();
+            });
+
+        });
     </script>
 </body>
 
