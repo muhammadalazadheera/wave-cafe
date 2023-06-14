@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 .josefin {
     font-family: 'Josefin Slab', serif;
 }
@@ -91,7 +104,7 @@ body {
 }
 
 .content-box {
-    padding: 30px 80px 30px 100px;
+    padding: 10px 10px 10px 10px;
 }
 
 .tab-buttons {
@@ -298,6 +311,46 @@ input[type=submit]:hover {
     background-color: #099;
 }
 
+@media (max-width: 576px) {
+    .about-us-img {
+        margin: 20px 0;
+    }
+
+    .about-us-heading {
+        margin: 15px 0px 20px 0px;
+    }
+
+    .menu-img {
+        padding: 0;
+        padding-top: 10px;
+
+    }
+
+    .menu-img img {
+        width: 95%;
+        margin: 0 auto;
+        border: 1px solid #ffffff;
+    }
+
+    .menu-description {
+        padding: 40px 10px;
+        margin: 0;
+    }
+
+    .contact-us-box {
+        background-color: #ffffff;
+        background-image: none;
+    }
+
+    .contact-us-address h2 {
+        margin-bottom: 15px;
+    }
+
+    .contact-us-address p {
+        margin-bottom: 25px;
+    }
+}
+
 /*Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
@@ -313,14 +366,14 @@ input[type=submit]:hover {
     .full-height {
         height: 100vh;
     }
-
-    .overflow-y-scroll {
-        overflow-y: scroll;
-    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .content-box {
+        padding: 30px 40px 30px 0px;
+    }
+}
 
 
 @media (min-width: 1345px) and (max-width: 1504px) {
